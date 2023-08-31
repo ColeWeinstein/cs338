@@ -1,0 +1,6 @@
+# General exclusions.
+.vscode
+u*.txt
+.DS_Store
+*.pyc
+__pycache__/
