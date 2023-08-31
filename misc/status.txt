@@ -1,0 +1,4 @@
+status.txt
+Cole Weinstein
+
+I will be running Kali on my own Windows PC. I have finished installing and setting it up within VMWare.
