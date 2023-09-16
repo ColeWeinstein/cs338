@@ -2,6 +2,7 @@ wireshark.txt
 Cole Weinstein
 
 =================== DAYTIME PROTOCOL ===================
+
 1. 	Frame	| Source IP		| Destination IP	| Protocol	| Info
 	1	| 192.168.240.128	| 132.163.97.1		| TCP		| 35692 → 13 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=883747182 TSecr=0 WS=128
 	2	| 132.163.97.1		| 192.168.240.128	| TCP		| 13 → 35692 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460
