@@ -1,0 +1,50 @@
+wireshark.txt
+Cole Weinstein
+
+=================== DAYTIME PROTOCOL ===================
+1. 	Frame	| Source IP		| Destination IP	| Protocol	| Info
+	1	| 192.168.240.128	| 132.163.97.1		| TCP		| 35692 → 13 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=883747182 TSecr=0 WS=128
+	2	| 132.163.97.1		| 192.168.240.128	| TCP		| 13 → 35692 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460
+	3	| 192.168.240.128	| 132.163.97.1		| TCP		| 35692 → 13 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+
+2. nc uses port 35692 for this interaction.
+
+3. The client needs a port so that the server knows exactly which program on the client machine to direct its response to.
+
+4.	Frame   | Source IP             | Destination IP        | Protocol      | Info 
+	4	| 132.163.97.1		| 192.168.240.128	| DAYTIME	| DAYTIME Response
+
+5. Excluding the Ethernet, IP, and TCP headers, the DAYTIME Protocol packet contains both information about the current date and time, as well as logistic information about the time, the packet, and the server; namely, it includes the Modified Julian Day, followed by the date (in YY-MM-DD form), the time (in HH:MM:SS form), the DST and LS flags, the health of the system, and the time advance. The DST flag is 0 when the US is in Standard Time and 50 when the US is in Daylight Savings Time. Other values between 0 and 99 are used during transitions between Daylight Savings and Standard Time. The LS flag is used to indicate the imminence of a leap second; a 0 indicates that no leap second is imminent, while a 1 means that a leap second will be added at the end of the last day of the current month and a 2 means that a leap second will be skipped at the end of the last day of the current month. Finally, the time advance is the number of milliseconds the packet was sent from the server in advance of the listed time in an attempt to account for the delay of its travel through the Internet. The information concludes with the string "UTC(NIST) *", indicating that the information is from the NIST servers and is based in UTC (Coordinated Universal Time). 
+
+6. [SYN] is a TCP flag which acts to initiate the TCP handshake between a server and client. (In particular, it does so by synchronizing the sequence numbers between the client and server so that each knows which to accept.)*
+
+7. [ACK] is a TCP flag which is used to acknowledge that the sender received the recipient's previous message.
+
+8. [FIN] is a TCP flag which acts to conclude the connection between the two machines.
+
+9. The daytime server initiated the closing of the TCP connection, since the DAYTIME protocol frame included the first [FIN] flag.
+
+*Information about TCP flags comes class work as well as from this page at geeksforgeeks.org: https://www.geeksforgeeks.org/tcp-flags/#
+
+=================== HHTP/BROWSER ===================
+
+1. Two TCP connections appear to have been opened. The first two frames are both from the client (ports 34722 and 34734) and both contain the [SYN] flag. They are both acknowledged later by the host server and result in complete connections.
+
+2. The homepage was requested in frame 5. Below is the summary data for that frame, which includes an HTTP GET request for "/index.html":
+
+	Frame   | Source IP             | Destination IP        | Protocol      | Info 
+	5	| 192.168.240.128	| 45.79.89.123		| HTTP		| GET /index.html HTTP/1.1
+
+3. The photograph was requested in frame 11. Below is the summary data for that frame, which includes an HTTP GET request for "/jeff_square_head.jpg":
+
+	Frame   | Source IP             | Destination IP        | Protocol      | Info 
+	11	| 192.168.240.128	| 45.79.89.123		| HTTP		| GET /jeff_square_head.jpg HTTP/1.1
+
+=================== QUESTIONS ===================
+
+1. What is the push flag (ie. [PSH]) used for? And why does it seem to appear most frequently between the packet with the image and the packet indicating that a favicon was not found.
+
+2. Kali appears to be using two different ports to communicate with the webpage: 34722 and 34734. Why specifically these ports (are they reserved for this usage?) and what does it use each port for? Do they have different utilities?
+
+3. All of the protocols in this capture are either TCP or HTTP. Are there other types of protocols that show up frequently?
+
