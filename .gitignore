@@ -4,3 +4,6 @@ u*.txt
 .DS_Store
 *.pyc
 __pycache__/
+
+# Don't include the following files
+./tech*
