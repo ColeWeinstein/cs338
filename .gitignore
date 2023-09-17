@@ -6,4 +6,4 @@ u*.txt
 __pycache__/
 
 # Don't include the following files
-./tech*
+tech*
