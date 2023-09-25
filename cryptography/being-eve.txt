@@ -1,0 +1,25 @@
+being-eve.txt
+Cole Weinstein
+
+=================== DIFFIE-HELLMAN ===================
+
+The shared key in this Diffie-Hellman exchange is K = 6. Since p was a small number and the Diffie-Hellman protocol is public, I was able to write a short Python problem which solved for secrets x and y using brute force. Using these values, I was able to compute K = (g ** (x * y)) % p quickly.
+
+This approach would not have worked if p was sufficiently large since it requires checking something on the order of p^2 values. However, with p = 61, this program was able to find K in just under one twenty-fifth of a second.
+
+See ./cracking-diffie-hellman.py for the code used to crack this Diffie-Hellman interaction.
+
+=================== RSA ===================
+
+When decrypted, the message from Alice to Bob reads as follows:
+
+Hi Bob. I'm walking from now on. Your pal, Alice. https://foundation.mozilla.org/en/privacynotincluded/articles/its-official-cars-are-the-worst-product-category-we-have-ever-reviewed-for-privacy/	
+
+Even though p was much larger than in the Diffie-Hellman example, it was still too small for secure encryption. With the RSA protocol being public, I was able to write another short, albeit slightly longer, Python script which solved for Bob's secret key (d, n). Once I got Bob's secret key, I was able to decrypt Alice's message. From there, I could see that all of the blocks were integers smaller than 65535, or 2^16 - 1, and most were larger than 255, or 2^8 - 1, so I figured (and Jeff mentioned in class/on Slack) that each block consisted of two bytes of data. Under this assumption, converting the first 8 bits and the second 8 bits of each block into two separate characters using ASCII values resulted in the message shown above.
+
+Again, this approach would not have worked if p was sufficiently large. Real RSA encryption works with keys many orders of magnitude larger in size, and my program, which relied on brute force to crack Bob's private key, would have taken far too long to run; much longer than the 8 seconds it took to run on this example.
+
+Alice's message would still have been insecure even if Bob's keys were more secure largely because of the block size she chose. Since the output of the RSA encryption has to be reversible in some way (that is, the encrypted message must also be able to be decrypted without being complete gibberish), it follows that any two identical blocks of characters must continue to be identical when the same RSA protocol (ie. with the same keys) is applied to each. With a block length of 2, it becomes very likely that blocks are repeated in the plaintext, leaving the ecnrypted message vulnerable to a frequency analysis attack. This becomes ever more of a threat as messages grow longer and longer.
+
+See ./cracking-rsa.py for the code used to crack this RSA encryption example.
+
