@@ -1,0 +1,179 @@
+file-formats.txt
+Cole Weinstein
+
+Contents of id_rsa_homework (ie. generated RSA private key):
+-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+
+Contents of id_rsa_homework.pub (ie. generated RSA public key):
+cat id_rsa_homework.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDklPuS/Ry1gwFGBabq0FMUx0S+XIz1PFTFpNlAAFe1Ax8oIJKkGtJonED5zaMgt1sXP5pu3av6IYHp2uEQ52Nr6bU44YhWS/39rHvLwPTqd4kRiyDdVucjPR5OQMf+KkH0G6EimTRuG21tCV5Kik9uv6dfxdQMvKHU6JF8M0jk4D1YJpWblQ/+jZkXbvJ5NM8rYhP2vfsjcJMrO9EF+HGuIzYRB4k1LhBy278j2XteEnAVfQkovNJz8kwDZoGErduYBB3pLifIm5BOtL5iFYhx3qe3vNTTPd9XtelhgvkC+TfKxADPiVDwvYxQO3pnu4RqgclAww5hCLmcNlhVTdcZGryVDi5nNTYiiVoYYiJtSw+TN5x5rBp2/NzUhWezMbdZqP5dmEL4T6DN0Rw9kYaPeKSyJIMzInc86u1+8FFmN5blbFITpGDLyhvV4+LbkDdWmeIsTVl9RNfLfgwlgSXdwdfoPPcH+5U1mxl60ExlqrJBYXT8vhHnP8aA8kd3jJ8= colew@Ginemenasaurus
+
+=================== PRIVATE KEY ===================
+
+Within the private key, we expect to see:
+	1) The version number (should be 0),
+	2) n, the modulus,
+	3) e, the public exponent,
+	4) d, the private exponent,
+	5) p, one of the two prime factors of n,
+	6) q, the other prime factor of n, and
+	7) three more integers, used to make certain computations faster
+Technically, there's an optional field called "otherPrimeInfos". However, it only exists in the private key when multi-prime RSA is used.
+
+I used Lapo Luchini's ASN.1 decoder (https://lapo.it/asn1js/) and Michael Holtstrom's ASN.1 decoder (https://holtstrom.com/michael/tools/asn1decoder.php) to decode my private key file. I had to manually strip the PEM header and footer for the decoding to work.
+
+We find the following integers in the decoded key:
+	1) version
+	   value: 0x00
+	   starts at offset 4, with byte 4 indicating its type as an integer, byte 5 describing its length, and byte 6 containing the actual value
+
+	2) modulus (n)
+	   value: 0x00e494fb92fd1cb583014605a6ead05314c744be5c8cf53c54c5a4d9400057b5031f282092a41ad2689c40f9cda320b75b173f9a6eddabfa2181e9dae110e7636be9b538e188564bfdfdac7bcbc0f4ea7789118b20dd56e7233d1e4e40c7fe2a41f41ba12299346e1b6d6d095e4a8a4f6ebfa75fc5d40cbca1d4e8917c3348e4e03d5826959b950ffe8d99176ef27934cf2b6213f6bdfb2370932b3bd105f871ae2336110789352e1072dbbf23d97b5e1270157d0928bcd273f24c03668184addb98041de92e27c89b904eb4be62158871dea7b7bcd4d33ddf57b5e96182f902f937cac400cf8950f0bd8c503b7a67bb846a81c940c30e6108b99c3658554dd7191abc950e2e67353622895a1862226d4b0f93379c79ac1a76fcdcd48567b331b759a8fe5d9842f84fa0cdd11c3d91868f78a4b224833322773ceaed7ef051663796e56c5213a460cbca1bd5e3e2db90375699e22c4d597d44d7cb7e0c258125ddc1d7e83cf707fb95359b197ad04c65aab2416174fcbe11e73fc680f247778c9f
+	   starts at offset 7, with byte 7 indicating its type as an integer, bytes 8-10 describing its length, and bytes 11-395 containing the actual value
+
+	3) private exponent (e)
+	   value: 0x010001
+	   starts at offset 396, with byte 396 indicating its type as an integer, byte 397 describing its length (3), and bytes 398-400 containing the actual value
+
+	4) public exponent (d)
+	   value: 0x4a15c36803a35f6d236787836f0db02fc6da0ffcbd2eeaabeb171fd6af85bdc4523fd636d0fb6480c54c05ead159543430d7cb7ced59c50b41290368f8ea95fdaed4aea7e2615de5e767150497f88959ced221ceb80e6781b358743268df86e0b37695063ab394904d2a0ee441b28c462fd5d6a3aeb3a61ba97eeb505eeadc4b957651a321b6f165268d9cdbb7b8f315c650d6799d5f9d3fea6313d30e6554ab04fc8c0e6e390f420388176e4e19bf06a8cf3e244ed0cc410a21fae4294c507083e7c51a60c04eeb5cbf083f7588aee4239267aca035afb6dc42b4fac6a32fc4f7f39b88c4b82c5c38ca1d9736edb1d66e703aa34bd874bb1fcce7cfe8394ece60530fc84c72d9849e49a2ac59b4f33a31263a2372d87af9b90b008525803d6be117dd6fb265ebc54fec631a50b106817883c4f771c50032add2eaeda3f66fe27721bb6071bb3e3837b2fc128da49be80642b79aee1ac1f82d81b81ccdeadc26bb862851003ef02132d7d9d45096ad3cac81294d37bed0134d7b555541ceda51
+	   starts at offset 401, with byte 401 indicating its type as an integer, bytes 402-404 describing its length, and bytes 405-788 containing the actual value
+
+	5) prime1 (p)
+	   value: 0x00fbf37dcddb4d75ead6f6a1e15c590639b86930f6fe979bf8efbaa542f6ba92aa26fe762134828746538f2636f23a33c1312bea6eddf763172e532fc51d07d92c940c835995dc5b44efe9032fe8968cc15310ff2987e5328c417fe456219bef537ed65f561425b9f3df374fb2f35dd350c2db2fee4d7665d7657e510d3e9dcaf7d62417f628e683b254d115f2a21cf4f3956ed29478fdf769a600f1dbc774dc0a97e3ed601abcc553dcbe932c376e010682885a82d80e3efc58af494b3ca74c39
+	   starts at offset 789, with byte 789 indicating its type as an integer, bytes 790 and 791 describing its length, and bytes 792-984 containing the actual value
+
+	6) prime2 (q)
+	   value: 0x00e8415a2a8f30927f9a7943f22708e6f72bac57c1c6d396467028788a58d46f5dede66d6be6d8eda60fb6d2b84bb69720a93b57b88b196b6805c24c99b4152b1026973134995f487db447caef382bfdaa991b3e4c5770159482af5e446fe83eaa1cd8fa765c9fb7e0a8ba592c3643795d4f6ff176737cb753461aa8cd8b84f766ab4fe05ad7cfbcd48b7d58f6548e6d691d3ff602b62bacc60045259522994614e04db8e63af6dab4940349d0b1f9361777ede3e7d9a651205f161f74ea644f97
+	   starts at offset 985, with byte 985 indicating its type as an integer, bytes 986 and 987 describing its length, and bytes 988-1180 containing the actual value
+
+	7) exponent1 (d mod (p-1))
+	   value: 0x00a140f93ebce279db01143f0d76c67fa687b1c3a601d2550061a6aac90e12e175c7994b4ffb44a381ce4f2b5d35712cd8b438f0455f094bc17563c68a390761e717265f17024453a1ee8ecafc69b79984ce3e6da14e19d25d543a9f90c4d801b805d0fc99a231772f6fa8fdf881ac8668051eb631a62066141320628dc08acb720dfb71de99d4d76b56bfaf75686e7214488af27a166a2d64cfdb80f0725b07ce3be2a475c30718a09102e43d0389035d004476f19188a4a56bb95c86abde4379
+	   starts at offset 1181, with byte 1181 indicating its type as an integer, bytes 1182 and 1183 describing its length, and bytes 1184-1376 containing the actual value
+
+	8) exponent2 (d mod (q-1))
+	   value: 0x14643880681601a6c66f4331ed8f7087df03c0a8b8c636f9743b7969dc26baa86a8cc2aaa897ff358747abf496612f9fa47c1b558e90eac7354a3be37ad628f3c00fa2385606f19c67c9addd96f6f5cc96a8b7ad8837c50d46f412b8bb828e8decfe77ef106ecd7c22144a640157a73e340d460bfa53c6dcbed8f45d2794c30bf69a8abe2f188421bd25823c0e6c7adab1c0bddebb13d69583cc8e622ba97d67b3d1df1c07ad48c276045be4c0db7a8e50ef4805412cc30eae8a88b48127d17d
+	   starts at offset 1377, with byte 1377 indicating its type as an integer, bytes 1378 and 1379 describing its length, and bytes 1380-1571 containing the actual value
+
+	9) coefficient ((inverse of q) mod p)
+	   value: 0x00d0b69187d57cd12e32ac8249a2dbbc3bb37135f017ba08e401aefc9bc4e38913ea46e5c6442f149f8a9d2d674d5e4d590726010a2850d3919f8578e736cad447f7a8987dc84417e93bce4343463ccd72b2903427e4a2297d9e9acf16012ff3726da55c15a749bd1e628e6a9367c242f8b311d621fa315bee94f936e1aab763db1162bf1a9a6010b3e207c709bc9090d274df789589e6586db5f572aee9d287c212431a842ae593fd365f22a92cb36143a5ed28af18949ab296d297104ea097c0
+	   starts at offset 1572, with byte 1572 indicating its type as an integer, bytes 1573 and 1574 describing its length, and bytes 1575-1768 containing the actual value
+
+=================== PUBLIC KEY ===================
+
+In the public key file, we expect to see:
+	1) the string "ssh-rsa"
+	2) the public exponent, e, and
+	3) the modulus, n.
+Notably, 'e' and 'n' should be the same values found in the private key. Additionally, we expect to see the file contents start with "ssh-rsa" and end with some sort of comment in plaintext as it's written in the SSH-format.
+
+I used ___ and followed the descriptions outlined by Leonardo Giordani (https://www.thedigitalcatonline.com/blog/2018/04/25/rsa-keys/) to decode and parse my public key file. I had to strip the algorithm and comment plaintext strings for the base64 decoding to work.
+
+We find the following integers in the decoded public key:
+	1) public exponent (e)
+	   value: 0x010001
+	   starts at offset 11, with bytes 11-14 describing the length of the value, and bytes 15-17 containing the actual value
+
+	2) modulus (n)
+	   value: 0x00e494fb92fd1cb583014605a6ead05314c744be5c8cf53c54c5a4d9400057b5031f282092a41ad2689c40f9cda320b75b173f9a6eddabfa2181e9dae110e7636be9b538e188564bfdfdac7bcbc0f4ea7789118b20dd56e7233d1e4e40c7fe2a41f41ba12299346e1b6d6d095e4a8a4f6ebfa75fc5d40cbca1d4e8917c3348e4e03d5826959b950ffe8d99176ef27934cf2b6213f6bdfb2370932b3bd105f871ae2336110789352e1072dbbf23d97b5e1270157d0928bcd273f24c03668184addb98041de92e27c89b904eb4be62158871dea7b7bcd4d33ddf57b5e96182f902f937cac400cf8950f0bd8c503b7a67bb846a81c940c30e6108b99c3658554dd7191abc950e2e67353622895a1862226d4b0f93379c79ac1a76fcdcd48567b331b759a8fe5d9842f84fa0cdd11c3d91868f78a4b224833322773ceaed7ef051663796e56c5213a460cbca1bd5e3e2db90375699e22c4d597d44d7cb7e0c258125ddc1d7e83cf707fb95359b197ad04c65aab2416174fcbe11e73fc680f247778c9f
+	   starts at offset 18, with bytes 18-21 describing the length of the value, and bytes 22-406 containing the actual value
+
+Interestingly, we see that ssh encoding uses 4 bytes to describe the length of each value. For example, while bytes 15-17 contain the explicit data 0x010001 for the public key, the integer itself includes the 4 bytes preceding the data, here 0x00000003, which indicate that the data is 3 bytes long. This is similar in function but slightly different in implementation from the integer structure used by DER. 
+
+Also, note that 'e' and 'n' are exactly the same in the public key as they are in the private key, as predicted.
+
+=================== SANITY CHECK ===================
+
+We can check that these numbers satisfy certain properties required for RSA:
+
+	1) n == p * q
+	   We can use the following python code to test this equality. Executing the code prints "n == p*q" and thus validates the equality for the n, p, and q decoded.
+	   
+	```
+	   n = 0x00e494fb92fd1cb583014605a6ead05314c744be5c8cf53c54c5a4d9400057b5031f282092a41ad2689c40f9cda320b75b173f9a6eddabfa2181e9dae110e7636be9b538e188564bfdfdac7bcbc0f4ea7789118b20dd56e7233d1e4e40c7fe2a41f41ba12299346e1b6d6d095e4a8a4f6ebfa75fc5d40cbca1d4e8917c3348e4e03d5826959b950ffe8d99176ef27934cf2b6213f6bdfb2370932b3bd105f871ae2336110789352e1072dbbf23d97b5e1270157d0928bcd273f24c03668184addb98041de92e27c89b904eb4be62158871dea7b7bcd4d33ddf57b5e96182f902f937cac400cf8950f0bd8c503b7a67bb846a81c940c30e6108b99c3658554dd7191abc950e2e67353622895a1862226d4b0f93379c79ac1a76fcdcd48567b331b759a8fe5d9842f84fa0cdd11c3d91868f78a4b224833322773ceaed7ef051663796e56c5213a460cbca1bd5e3e2db90375699e22c4d597d44d7cb7e0c258125ddc1d7e83cf707fb95359b197ad04c65aab2416174fcbe11e73fc680f247778c9f
+
+	   p = 0x00fbf37dcddb4d75ead6f6a1e15c590639b86930f6fe979bf8efbaa542f6ba92aa26fe762134828746538f2636f23a33c1312bea6eddf763172e532fc51d07d92c940c835995dc5b44efe9032fe8968cc15310ff2987e5328c417fe456219bef537ed65f561425b9f3df374fb2f35dd350c2db2fee4d7665d7657e510d3e9dcaf7d62417f628e683b254d115f2a21cf4f3956ed29478fdf769a600f1dbc774dc0a97e3ed601abcc553dcbe932c376e010682885a82d80e3efc58af494b3ca74c39
+
+	   q = 0x00e8415a2a8f30927f9a7943f22708e6f72bac57c1c6d396467028788a58d46f5dede66d6be6d8eda60fb6d2b84bb69720a93b57b88b196b6805c24c99b4152b1026973134995f487db447caef382bfdaa991b3e4c5770159482af5e446fe83eaa1cd8fa765c9fb7e0a8ba592c3643795d4f6ff176737cb753461aa8cd8b84f766ab4fe05ad7cfbcd48b7d58f6548e6d691d3ff602b62bacc60045259522994614e04db8e63af6dab4940349d0b1f9361777ede3e7d9a651205f161f74ea644f97
+
+	   if (n == p*q):
+	       print("n == p*q\n")
+	```
+
+
+	2) gcd(e, lambda(n)) == 1
+	   Here, lambda(n) is the lcd of p-1 and q-1, and is used to compute d. We can use the following python code to test this equality. Executing the code prints "e and lambda(n) are coprime" and thus validates the equality using the e, p, and q decoded.
+
+	```
+	   import math
+
+	   e = 0x010001
+
+	   p = 0x00fbf37dcddb4d75ead6f6a1e15c590639b86930f6fe979bf8efbaa542f6ba92aa26fe762134828746538f2636f23a33c1312bea6eddf763172e532fc51d07d92c940c835995dc5b44efe9032fe8968cc15310ff2987e5328c417fe456219bef537ed65f561425b9f3df374fb2f35dd350c2db2fee4d7665d7657e510d3e9dcaf7d62417f628e683b254d115f2a21cf4f3956ed29478fdf769a600f1dbc774dc0a97e3ed601abcc553dcbe932c376e010682885a82d80e3efc58af494b3ca74c39
+
+	   q = 0x00e8415a2a8f30927f9a7943f22708e6f72bac57c1c6d396467028788a58d46f5dede66d6be6d8eda60fb6d2b84bb69720a93b57b88b196b6805c24c99b4152b1026973134995f487db447caef382bfdaa991b3e4c5770159482af5e446fe83eaa1cd8fa765c9fb7e0a8ba592c3643795d4f6ff176737cb753461aa8cd8b84f766ab4fe05ad7cfbcd48b7d58f6548e6d691d3ff602b62bacc60045259522994614e04db8e63af6dab4940349d0b1f9361777ede3e7d9a651205f161f74ea644f97
+
+	   lambdaN = math.lcm(p-1, q-1)
+
+	   if (math.gcd(e, lambdaN) == 1):
+	       print("e and lambda(n) are coprime\n")
+	```
+
+
+	3) (d*e) % lambda(n) == 1
+	   Again, we use the same definition for lambda(n). By construction, d and e are multiplicative inverses modulo lambda(n). We can use the following python code to test this equality. Executing the code prints "d is the modular multiplicative inverse of e modulo lambda(n)\n" and thus validates the equality using the d, e, p, and q decoded.
+
+	```
+	   import math
+
+	   e = 0x010001
+
+	   d = 0x4a15c36803a35f6d236787836f0db02fc6da0ffcbd2eeaabeb171fd6af85bdc4523fd636d0fb6480c54c05ead159543430d7cb7ced59c50b41290368f8ea95fdaed4aea7e2615de5e767150497f88959ced221ceb80e6781b358743268df86e0b37695063ab394904d2a0ee441b28c462fd5d6a3aeb3a61ba97eeb505eeadc4b957651a321b6f165268d9cdbb7b8f315c650d6799d5f9d3fea6313d30e6554ab04fc8c0e6e390f420388176e4e19bf06a8cf3e244ed0cc410a21fae4294c507083e7c51a60c04eeb5cbf083f7588aee4239267aca035afb6dc42b4fac6a32fc4f7f39b88c4b82c5c38ca1d9736edb1d66e703aa34bd874bb1fcce7cfe8394ece60530fc84c72d9849e49a2ac59b4f33a31263a2372d87af9b90b008525803d6be117dd6fb265ebc54fec631a50b106817883c4f771c50032add2eaeda3f66fe27721bb6071bb3e3837b2fc128da49be80642b79aee1ac1f82d81b81ccdeadc26bb862851003ef02132d7d9d45096ad3cac81294d37bed0134d7b555541ceda51
+
+	   p = 0x00fbf37dcddb4d75ead6f6a1e15c590639b86930f6fe979bf8efbaa542f6ba92aa26fe762134828746538f2636f23a33c1312bea6eddf763172e532fc51d07d92c940c835995dc5b44efe9032fe8968cc15310ff2987e5328c417fe456219bef537ed65f561425b9f3df374fb2f35dd350c2db2fee4d7665d7657e510d3e9dcaf7d62417f628e683b254d115f2a21cf4f3956ed29478fdf769a600f1dbc774dc0a97e3ed601abcc553dcbe932c376e010682885a82d80e3efc58af494b3ca74c39
+
+	   q = 0x00e8415a2a8f30927f9a7943f22708e6f72bac57c1c6d396467028788a58d46f5dede66d6be6d8eda60fb6d2b84bb69720a93b57b88b196b6805c24c99b4152b1026973134995f487db447caef382bfdaa991b3e4c5770159482af5e446fe83eaa1cd8fa765c9fb7e0a8ba592c3643795d4f6ff176737cb753461aa8cd8b84f766ab4fe05ad7cfbcd48b7d58f6548e6d691d3ff602b62bacc60045259522994614e04db8e63af6dab4940349d0b1f9361777ede3e7d9a651205f161f74ea644f97
+
+	   lambdaN = math.lcm(p-1, q-1)
+
+	   if ((d*e) % lambdaN == 1):
+	       print("d is the modular multiplicative inverse of e modulo lambda(n)\n")
+	```
