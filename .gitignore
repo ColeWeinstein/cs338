@@ -8,3 +8,5 @@ __pycache__/
 # Don't include the following files
 tech*
 lab-*
+ssh/id
+ssh/*.py
