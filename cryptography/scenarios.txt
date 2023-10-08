@@ -1,0 +1,33 @@
+scenarios.txt
+Cole Weinstein
+
+1. Assuming that AITM is impossible, we can ensure that Alice's long message is securely sent to Bob by establishing a shared secret key using Diffie-Hellman. We establish a shared key K between Alice and Bob, then Alice sends C = AES(K, M) to Bob. Then, upon receiving C, Bob can read M by computing M = AES_D(K, C). Since M is encrypted before it can be viewed by Eve, and Eve was unable to perform an AITM attack on the DH exchange, our goal has been achieved.
+
+2. Bob is assumed to have a correct copy of Alice's public key, P_A. Since Alice is only concerned that her message reaches Bob without edits and doesn't care whether Mal reads the message, Alice sends M||E(S_A, H(M)) to Bob. Then, even if Mal edits M, she won't be able to recreate the attached encrypted hash of M, since only Alice has S_A. Thus, Bob receives M'||E(S_A, H(M)), decrypts H(M) using Alice's public key, and can see whether H(M') == H(M) or not.
+
+3. Again, since we're supposing that AITM is not possible, we have Alice and Bob perform a secure DH exchange such that both individuals now have a shared key K. Then, Alice sends Bob AES(K, M||E(S_A, H(M))). In this way, only Bob can decrypt and read the ciphertext, and Bob can have confidence that Alice sent the message by checking if his computation of H(M) is equal to E(P_A, E(S_A, H(M))). If they are, then Bob knows that Alice sent the message, since only Alice has S_A.
+
+4. Repudiations Alice could make:
+    a. Alice claims that Bob took one of her signatures from a previous interaction and found a hash collision with the contract C that Bob's presenting as evidence. Sure, Alice sent the digital signature, and sure that signature decrypts to the same thing that the contract hashes to, but that specific contract was never sent to Alice and Bob lied about receiving both of them together from Alice.
+       As a judge, I would not be inclined to side with Alice here, since cryptographic hashes are built to have infrequent collisions, although I suppose it might depend on how convincing the signature was.
+
+    b. Alice claims that Bob broke into Alice's house and stole her secret key off her computer. Then, Bob created the erroneous contract and created a signature for Alice, before digitally signing it with Alice's secret key.
+       As a judge, I would be very disinclined to belive Alice. It would be almost impossible to believe that Bob silently broke into her house, accessed her computer, and forged her signature. If any of these actions had been known by Alice, one would think she would have pressed her own charges before Bob sued her. Thus, a significant amount of additional evidence would be needed to convince me that this was the legitimate sequence of events.
+
+    c. Alice acknowledges that she did sent Bob a physically and digitally signed contract several months ago. However, shortly after, there were EXTREME SOLAR FLARES which corrupted the data of the digital contract in such a way that the terms of the contract had changed and allow Bob to sue for a breach of contract and that the digital signature also changed to make it appear that Alice had originally signed the corrupted contract. In fact, Alice never agreed to these terms, only the ones defined before the solar flare corruption.
+       As a judge, no way. The immense odds that must have been surmounted for the contract to be corrupted in such a way that it was still comprehensible, left Alice's physical signature (almost entirely) untouched, AND had new terms that allowed for a breach of contract, WHILE ALSO changing the digitial signature to match the new contract are just impossible. There is no way this could have happened, or Alice is the unluckiest person to ever exist on this planet and across hundreds of other multiverses.
+
+5. Sig_CA would consist of E(S_CA, H("bob.com" || P_B)). This way, anyone who has the CA's public key could decrypt the signature and see that the decrypted value would be the same as the hash of the rest of the legitimate certificate.
+
+6. Bob simply sending Alice Cert_B during a communication is not enough to convince Alice that she's talking to Bob. For example, if Bob firsts comminucates with Mal, and in the same manner sends her Cert_B, Mal could then intercept Alice's communication and send Cert_B to assert that she's actually Bob. However, if Alice sends Bob a random number R and Bob sends back E(S_B, R), then Alice can be confident that she's talking to Bob since only Bob has S_B. (Alice can know that what she received is E(S_B, R) by decrypting it using P_B and seeing if the result is equal to R.)
+
+7. Mal could subvert the certificate system in the following two ways:
+    a. Mal could bribe the CA to give her the certificate
+           "bob.com" || P_M || Sig_CA'
+       Thus, Mal would have a certificate that says "bob.com" has public key P_M, certified by the CA, and Alice would have no reason to believe that Mal is not the owner of bob.com.
+
+    b. Mal could create the domain "bobb.com" and get a legitimate certificate from the CA for this domain. Mal could then attempt to get Alice to comminucate with her if Alice isn't careful enough (and we know from real world experience that this is not uncommon).
+
+
+
+*I discussed some of my ideas for solutions to 2 and 7 with Ruben Boero.
