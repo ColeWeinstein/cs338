@@ -1,0 +1,69 @@
+Part 1:
+- Total time: 0m0.350s
+- Number of hashes computed: 267,516
+- Passwords cracked: 2,734
+- Time per hash computed: 1.308e-6 seconds
+- Time per password cracked: 1.280e-4 seconds
+- Passwords cracked per number of hashes computed: 1.022e-2 passwords per hash
+computed
+
+Part 2
+- Total time: 27m42.085s
+- Number of hashes computed: 1,570,586,436
+- Passwords cracked: 69
+- Time per hash computed: 1.058e-6 seconds
+- Average time per password cracked: 24.088 seconds
+- Passwords cracked per number of hashes computed: 4.393e-8 passwords per hash
+computed
+
+Part 3
+- Total time: 5m40.021s
+- Number of hashes computed: 368,016,265
+- Passwords cracked: 2,734
+- Time per hash computed: 9.239e-7 seconds
+- Time per password cracked: 1.244e-1 seconds
+- Passwords cracked per number of hashes computed: 7.429e-6 passwords per hash
+computed
+
+Analysis:
+- Did your time per hash computed change between phases? By what factor? Why?
+    - Each phase resulted in around the same amount of time to compute each
+    hash, since I used pretty much the exact same code to compute a hash in
+    each phase. Notably, the time per hash was slightly longer in phase 1, and
+    I think that's because I computed significantly fewer hashes compared to
+    the number of passwords I cracked, so the pure time per hash isn't accurately
+    reflected in my calculations.
+
+- Did your time per password crack change between phases? By what factor? Why?
+    - My time per password crack changed significantly between phases. It changed
+    by a factor of 10^5 from phase 1 to phase 2, and by a factor of 10^3 from
+    phase 1 to phase 3. These factors directly correspond to the number of hashes
+    computed per password cracked, and changed between phases with the same
+    magnitude (had to compute 10^5 more hashes in phase 2 to crack a password
+    than in phase 1).
+
+- Suppose you wanted to precompute all the hashes for each possible password
+so you could just look up the password in a table indexed by the hash. How much
+memory would be required for each phase?
+    - Assuming that each entry of the table would take 80 bytes (16 for password
+    + 32 for hash + 32 for overhead), the table for phase 1 would require
+            267,516 hashes * 80 bytes per entry = 21,401,280 bytes, or ~20.4 GB.
+    - With the same assumptions, the table for phase 2 would require
+            267,516 hashes ^ 2 * 80 bytes per entry = 5,725,184,820,480 bytes, 
+            or ~5 petabytes.
+    - Assuming that each entry of the table would now take 84 bytes (16 for
+    password + 32 for hash + 32 for overhead + 4 for salt), the table for phase 3
+    would require
+            267,516 hashes * 4,294,967,296 salts * 84 bytes per entry
+            = 9,191,779,769,253,888 bytes, or ~9 exabytes.
+
+- Give 3-4 reasons we should store password hashes and not the passwords
+themselves. Think in terms of threats, who the attackers might be, etc.
+    - Storing the password hashes means that even after a database leak, an
+    attack still has to put in some more work to get some passwords, and likely
+    (hopefully) won't get anywhere near all of the passwords
+    - In a similar manner, it prevents an employee of the company (or someone
+    with legitimate access to the database) from viewing or disclosing passwords
+    in a unauthorized manner
+    - It makes it impossible for an attacker to gain someone's credentials by
+    creating a "Forgot password" request for an account they don't control.
